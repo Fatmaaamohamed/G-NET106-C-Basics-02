@@ -128,12 +128,20 @@ namespace Session2.Assignment
             #region Question12
             /*Using title from the previous question, use ?? to print "Untitled" if title is null. Then use ??=
             to assign title the value "Untitled" only if it's still null.*/
-           /// Book? book = null;
-           /// string? title = book?.Title;
+            /// Book? book = null;
+            /// string? title = book?.Title;
             ///Console.WriteLine(title ?? "Untitled");
-          ///  title ??= "Untitled";
-           /// Console.WriteLine($"title Value: {title}");
+            ///  title ??= "Untitled";
+            /// Console.WriteLine($"title Value: {title}");
             #endregion region 
+
+            #region Question13 
+            /*Given string? name = "Ahmed"; (you are sure it's not null here), assign it to a non-nullable
+            string confirmedName using the ! operator.*/
+          ////  string? name = "Ahmed";
+          ///  string confirmedName = name!;
+           /// Console.WriteLine(confirmedName);
+            #endregion 
         }
     }
 }
