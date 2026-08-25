@@ -1,4 +1,6 @@
-﻿namespace Session2.Assignment
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Session2.Assignment
 {
     internal class Program
     {
@@ -9,11 +11,23 @@
             /*Create a Book class with a Title (string) and Pages (int). Create a Book object and store it
              in a variable of type object. Print it.*/
 
-           /// Book book = new Book();
-          
-           ///object obj = book;
+            /// Book book = new Book();
 
-         ///  Console.WriteLine(obj);
+            ///object obj = book;
+
+            ///  Console.WriteLine(obj);
+
+            #endregion
+
+            #region Question02
+            /*Using the Book class above, print the result of calling ToString(), Equals() (compare book
+            with itself), GetHashCode(), and GetType() on book.*/
+
+            ///Book book1 = new Book();
+            ///Console.WriteLine(book1.ToString());
+            ///Console.WriteLine(book1.Equals(book1));
+            ///Console.WriteLine(book1.GetHashCode());
+            ///Console.WriteLine(book1.GetType());
 
             #endregion
         }
