@@ -103,11 +103,17 @@ namespace Session2.Assignment
             #region Question09
             /*Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its
             value.*/
-           /// int? year = null;
+            /// int? year = null;
             ///Console.WriteLine($"year has a value: {year.HasValue}");
             ///year = 2023;
             ///Console.WriteLine($"year: {year}");
-            #endregion 
+            #endregion
+
+            #region Question10
+            /*Declare a string? reviewer = null;. Print whether it is null.*/
+            ///string ? reviewer = null;
+           /// Console.WriteLine(reviewer == null);
+            #endregion
         }
     }
 }
