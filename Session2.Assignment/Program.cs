@@ -84,12 +84,21 @@ namespace Session2.Assignment
             /*Then given string badText =
             "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails*/
             ///string badtext = "abc";
-           ///bool flag = int.TryParse(badtext ,out int result) ;
-           /// if (!flag) { 
-           /// Console.WriteLine("Invalid number");
-           /// }
+            ///bool flag = int.TryParse(badtext ,out int result) ;
+            /// if (!flag) { 
+            /// Console.WriteLine("Invalid number");
+            /// }
             #endregion
 
+            #region Question08
+            /*Given int pages = 464;, convert it into a string using ToString() and print its type using
+            GetType() to prove it's now a string.*/
+
+            ///int Pages = 464;
+            ///string pagesText = Pages.ToString();
+            ///Console.WriteLine(pagesText.GetType());
+
+            #endregion
         }
     }
 }
