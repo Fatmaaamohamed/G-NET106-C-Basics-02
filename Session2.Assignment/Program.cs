@@ -30,6 +30,26 @@ namespace Session2.Assignment
             ///Console.WriteLine(book1.GetType());
 
             #endregion
+
+            #region Question03
+            /*Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
+            divide by zero", and then prints "Done" in a finally block.*/
+
+           /// try
+            ///{
+            ////    int x = 10;
+             ///   int y = 0;
+             ///   int z = x / y;
+           /// }
+           /// catch (DivideByZeroException)
+           /// {
+           ///     Console.WriteLine("Cannot divide by zero");
+           /// }
+            ///finally
+           /// {
+           ///     Console.WriteLine("Done");
+           /// }
+            #endregion
         }
     }
 }
