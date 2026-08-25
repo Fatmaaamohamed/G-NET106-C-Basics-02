@@ -112,7 +112,17 @@ namespace Session2.Assignment
             #region Question10
             /*Declare a string? reviewer = null;. Print whether it is null.*/
             ///string ? reviewer = null;
-           /// Console.WriteLine(reviewer == null);
+            /// Console.WriteLine(reviewer == null);
+            #endregion
+
+            #region Question11
+            /*Declare a Book? book = null;. Use ?. to safely read book.Title without crashing the
+            program, and print the result.*/
+
+            ///Book? book = null;
+
+            ///Console.WriteLine(book?.Title);
+
             #endregion
         }
     }
