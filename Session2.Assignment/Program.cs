@@ -64,6 +64,14 @@ namespace Session2.Assignment
             ///double price = 49.99;
             //int priceInt = (int)price;
             #endregion
+
+            #region Question06
+            /*Given string pagesText = "464";, convert it into an int using the Convert class.*/
+
+           /// string pagesText = "464";
+           /// int pagesInt = Convert.ToInt32(pagesText);
+            #endregion
+
         }
     }
 }
