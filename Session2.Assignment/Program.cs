@@ -99,6 +99,15 @@ namespace Session2.Assignment
             ///Console.WriteLine(pagesText.GetType());
 
             #endregion
+
+            #region Question09
+            /*Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its
+            value.*/
+           /// int? year = null;
+            ///Console.WriteLine($"year has a value: {year.HasValue}");
+            ///year = 2023;
+            ///Console.WriteLine($"year: {year}");
+            #endregion 
         }
     }
 }
