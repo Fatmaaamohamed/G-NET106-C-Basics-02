@@ -35,20 +35,28 @@ namespace Session2.Assignment
             /*Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot
             divide by zero", and then prints "Done" in a finally block.*/
 
-           /// try
+            /// try
             ///{
             ////    int x = 10;
-             ///   int y = 0;
-             ///   int z = x / y;
-           /// }
-           /// catch (DivideByZeroException)
-           /// {
-           ///     Console.WriteLine("Cannot divide by zero");
-           /// }
+            ///   int y = 0;
+            ///   int z = x / y;
+            /// }
+            /// catch (DivideByZeroException)
+            /// {
+            ///     Console.WriteLine("Cannot divide by zero");
+            /// }
             ///finally
-           /// {
-           ///     Console.WriteLine("Done");
-           /// }
+            /// {
+            ///     Console.WriteLine("Done");
+            /// }
+            #endregion
+
+            #region Question04
+            /*Declare an int pages = 300; then store it in a double variable without using a cast.*/
+
+            ///int pages = 300;
+            ///double pagesDouble = pages;
+
             #endregion
         }
     }
