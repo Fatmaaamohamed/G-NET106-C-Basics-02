@@ -75,9 +75,19 @@ namespace Session2.Assignment
             #region Question07
             /*Given string yearText = "2023";, convert it using int.Parse(). Then given string badText =
             "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.*/
-           /// string yearText = "2023";
-           /// int year =int.Parse(yearText);
-           /// Console.WriteLine($"year: {year}");
+            /// string yearText = "2023";
+            /// int year =int.Parse(yearText);
+            /// Console.WriteLine($"year: {year}");
+            #endregion
+
+            #region Question07 part 2
+            /*Then given string badText =
+            "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails*/
+            ///string badtext = "abc";
+           ///bool flag = int.TryParse(badtext ,out int result) ;
+           /// if (!flag) { 
+           /// Console.WriteLine("Invalid number");
+           /// }
             #endregion
 
         }
